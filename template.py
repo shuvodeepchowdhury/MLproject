@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 project_name="mlproject"
 
 list_of_files=[
-    f"src/{project_name}/__init__.py,",
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__",
     f"src/{project_name}/components/data_ingestion.py",
     f"src/{project_name}/components/data_transformation.py",
@@ -19,6 +19,7 @@ list_of_files=[
     f"src/{project_name}/exception.py",
     f"src/{project_name}/logger.py",
     f"src/{project_name}/utils.py",
+    "main.py"
     "app.py",
     "Dockerfile",
     "requirements.txt",
