@@ -1,3 +1,4 @@
+ # newly updated code for exception.py
 import sys
 from src.mlproject.logger import logging
 
@@ -18,4 +19,4 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-    # newly updated code for exception handler 
+   
